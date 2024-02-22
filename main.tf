@@ -3,7 +3,7 @@ resource "github_branch_protection" "branch" {
   pattern                             = var.pattern
   enforce_admins                      = var.enforce_admins
   allows_deletions                    = var.allows_deletions
-  push_restrictions                   = var.push_restrictions
+  #push_restrictions                   = var.push_restrictions
   allows_force_pushes                 = var.allows_force_pushes
 
   required_status_checks {
