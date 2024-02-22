@@ -33,9 +33,11 @@ output "enforce_admins" {
   value = github_branch_protection.branch.enforce_admins
 }
 
+/*
 output "push_restrictions" {
   value = github_branch_protection.branch.push_restrictions
 }
+*/
 
 output "allows_force_pushes" {
   value = github_branch_protection.branch.allows_force_pushes
